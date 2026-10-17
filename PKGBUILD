@@ -1,5 +1,5 @@
 # Maintainer: thankarezos
-pkgname=libfprint-cs9711-git
+pkgname=libfprint-chipsailing-cs9711-git
 pkgver=r1867.ec3ad6e
 pkgrel=1
 pkgdesc='Chipsailing CS9711 fingerprint driver based on libfprint'

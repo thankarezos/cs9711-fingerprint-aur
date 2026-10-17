@@ -1,4 +1,4 @@
-pkgbase = libfprint-cs9711-git
+pkgbase = libfprint-chipsailing-cs9711-git
 	pkgdesc = Chipsailing CS9711 fingerprint driver based on libfprint
 	pkgver = r1867.ec3ad6e
 	pkgrel = 1
@@ -24,4 +24,4 @@ pkgbase = libfprint-cs9711-git
 	source = libfprint-CS9711::git+https://github.com/thankarezos/libfprint-CS9711.git#branch=cs9711-rebase
 	sha256sums = SKIP
 
-pkgname = libfprint-cs9711-git
+pkgname = libfprint-chipsailing-cs9711-git

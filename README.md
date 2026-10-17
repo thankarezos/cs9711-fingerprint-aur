@@ -1,4 +1,4 @@
-# libfprint-cs9711-git
+# libfprint-chipsailing-cs9711-git
 
 Chipsailing CS9711 fingerprint driver package for Arch Linux and EndeavourOS
 (x86_64).
@@ -75,7 +75,7 @@ The package does not modify your authentication configuration.
 sudo pacman -S libfprint
 ```
 
-Accept removal of `libfprint-cs9711-git` when prompted. You can keep `fprintd`
+Accept removal of `libfprint-chipsailing-cs9711-git` when prompted. You can keep `fprintd`
 installed. Stock libfprint may not support the CS9711 sensor.
 
 ## Contributing

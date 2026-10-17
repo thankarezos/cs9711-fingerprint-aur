@@ -9,7 +9,7 @@ The OpenCV dependency-name adjustment is limited to the package build copy.
 ```sh
 makepkg -Cf
 makepkg --printsrcinfo > .SRCINFO
-namcap PKGBUILD ./libfprint-cs9711-git-*.pkg.tar.zst
+namcap PKGBUILD ./libfprint-chipsailing-cs9711-git-*.pkg.tar.zst
 ```
 
 `check()` runs the SIGFM fixtures and three core software test suites. Physical
@@ -29,9 +29,9 @@ maintainer before publishing.
 From this GitHub packaging checkout:
 
 ```sh
-git clone ssh://aur@aur.archlinux.org/libfprint-cs9711-git.git ../cs9711-aur-publish
-cp PKGBUILD .SRCINFO ../cs9711-aur-publish/
-cd ../cs9711-aur-publish
+git clone ssh://aur@aur.archlinux.org/libfprint-chipsailing-cs9711-git.git ../aur-libfprint-chipsailing-cs9711-git
+cp PKGBUILD .SRCINFO ../aur-libfprint-chipsailing-cs9711-git/
+cd ../aur-libfprint-chipsailing-cs9711-git
 ```
 
 For a new, empty AUR repository, create its `master` branch:
@@ -54,6 +54,6 @@ The push publishes the package to AUR. Pushing this GitHub repository does not.
 Upload only the PKGBUILD, `.SRCINFO` and any required packaging assets, never
 build outputs or a driver source checkout.
 
-After publication, users can install with `yay -S libfprint-cs9711-git`.
+After publication, users can install with `yay -S libfprint-chipsailing-cs9711-git`.
 Driver-only commits do not necessarily trigger an upgrade in a normal
 `yay -Syu`; rebuild explicitly or use yay's development-package checks.
