@@ -1,5 +1,5 @@
 # Maintainer: thankarezos
-pkgname=cs9711-fingerprint-git
+pkgname=libfprint-cs9711-git
 pkgver=r1867.ec3ad6e
 pkgrel=1
 pkgdesc='Chipsailing CS9711 fingerprint driver based on libfprint'
@@ -10,7 +10,7 @@ depends=('glibc' 'gcc-libs' 'glib2' 'libgusb' 'opencv')
 makedepends=('git' 'meson' 'ninja' 'pkgconf' 'doctest' 'gobject-introspection')
 optdepends=('fprintd: fingerprint enrollment and verification')
 provides=('libfprint' 'libfprint-2.so')
-conflicts=('libfprint')
+conflicts=('libfprint' 'cs9711-fingerprint-git')
 source=('libfprint-CS9711::git+https://github.com/thankarezos/libfprint-CS9711.git#branch=cs9711-rebase')
 sha256sums=('SKIP')
 
